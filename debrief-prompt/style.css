@@ -1,0 +1,56 @@
+[time-data-theme="dark"] {
+	--main-bg-color: #191919;
+	--main-text-color: #ffffff;
+}
+
+[time-data-theme="light"] {
+	--main-bg-color: #ffffff;
+	--main-text-color: #191919;
+}
+
+.body {
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+	font-family: 'OCR A Extended';
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+#title {
+	margin: 10px auto;
+	font-size: 1.25em;
+	font-weight: bolder;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
+
+#prompt, #prompt2 {
+	margin: 25px auto;
+	position: relative;
+	font-size: 1.5em;
+	display: flex;
+	overflow: hidden;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#refresh {
+	/* this is a button */
+	margin: 30px auto 20px;
+	position: relative;
+	font-size: 1em;
+	display: flex;
+	overflow: hidden;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--main-bg-color);
+	border-style: outset;
+}

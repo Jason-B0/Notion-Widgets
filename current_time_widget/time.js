@@ -24,10 +24,13 @@ textClock();
 // https://github.com/anthonytedja/notion/blob/main/time/script.js
 
 function light() {
+	console.log("Fired");
 	document.documentElement.setAttribute('time-data-theme', 'light');
 }
 
 function dark() {
+		console.log("Fired");
+
 	document.documentElement.setAttribute('time-data-theme', 'dark');
 }
 
