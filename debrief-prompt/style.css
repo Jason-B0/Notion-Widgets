@@ -8,18 +8,19 @@
 	--main-text-color: #191919;
 }
 
-.body {
+body {
+	display: inline-block;
+	min-width: 100%;
 	background-color: var(--main-bg-color);
 	color: var(--main-text-color);
 	font-family: 'OCR A Extended';
 	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
+	transform: translate(0, 20%);
 }
 
 #title {
 	margin: 10px auto;
-	font-size: 1.25em;
+	font-size: 5vw;
 	font-weight: bolder;
 	position: relative;
 	display: flex;
@@ -32,11 +33,11 @@
 #prompt, #prompt2 {
 	margin: 25px auto;
 	position: relative;
-	font-size: 1.5em;
+	font-size: 5vw;
 	display: flex;
 	overflow: hidden;
 	cursor: pointer;
-	justify-content: center;
+	justify-content: safe center;
 	align-items: center;
 }
 
@@ -45,7 +46,7 @@
 	/* this is a button */
 	margin: 30px auto 20px;
 	position: relative;
-	font-size: 1em;
+	font-size: 3.5vw;
 	display: flex;
 	overflow: hidden;
 	cursor: pointer;
