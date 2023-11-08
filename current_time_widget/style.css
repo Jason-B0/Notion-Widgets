@@ -1,10 +1,20 @@
+[time-data-theme="dark"] {
+	--main-bg-color: #191919;
+	--main-text-color: #ffffff;
+}
+
+[time-data-theme="light"] {
+	--main-bg-color: #ffffff;
+	--main-text-color: #191919;
+}
+
 .body {
-	background-color: #191919;
-	color: #333;
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
 	font-family: 'OCR A Extended';
 	position: absolute;
 	top: 50%;
-	transform: translate(0 , -50%);
+	transform: translate(0, -50%);
 }
 
 #time, #paragraph {
