@@ -1,0 +1,18 @@
+.body {
+	background-color: #191919;
+	color: #333;
+	font-family: 'OCR A Extended';
+	position: absolute;
+	top: 50%;
+	transform: translate(0 , -50%);
+}
+
+#time, #paragraph {
+	margin: 10px auto;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
