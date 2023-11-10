@@ -9,7 +9,9 @@
 }
 
 body {
-	display: inline-block;
+	margin-left: 50px;
+	margin-right: auto;
+	padding: 50px;
 	min-width: 100%;
 	background-color: var(--main-bg-color);
 	color: var(--main-text-color);
@@ -19,35 +21,36 @@ body {
 }
 
 #title {
-	margin: 10px auto;
-	font-size: 5vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	display: block;
+	font-size: 1em;
 	font-weight: bolder;
-	position: relative;
-	display: flex;
 	overflow: hidden;
 	cursor: pointer;
 	justify-content: center;
 	align-items: center;
 }
 
-#prompt, #prompt2 {
-	margin: 25px auto;
-	position: relative;
-	font-size: 5vw;
-	display: flex;
-	overflow: hidden;
-	cursor: pointer;
-	justify-content: safe center;
-	align-items: center;
+#prompt  p, #prompt2  p {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: .8em;
+	font-weight: bolder;
 }
 
 
 #refresh {
 	/* this is a button */
-	margin: 30px auto 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	padding: 2.5%;
 	position: relative;
 	font-size: 3.5vw;
-	display: flex;
 	overflow: hidden;
 	cursor: pointer;
 	justify-content: center;
