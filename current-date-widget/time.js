@@ -3,11 +3,11 @@ function textClock() {
 	var useMilitaryTime = true;
 	
 	/* END SETTINGS */
-	var newDate = new Date(),
-		year = newDate.getFullYear(),
-		month = newDate.getMonth(),
-		date = newDate.getDate(),
-		day = newDate.getDay()
+	var dt = new Date(),
+		year = dt.getFullYear(),
+		month = dt.getMonth() + 1,
+		date = dt.getDate(),
+		day = dt.getDay()
 	
 	switch (day) {
 		case 0:
