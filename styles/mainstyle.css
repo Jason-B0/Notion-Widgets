@@ -9,30 +9,34 @@
 	font-size: 20px;
 	transition: all ease 0.2s;
 	--text-color: #ffffff;
-	---bg-color: #ffffff00;
+	--bg-color: #ffffff00;
 }
 
 @media (prefers-color-theme: dark) {
 	:root {
 		--text-color: #ffffff;
+		
 	}
 }
 
 @media (color-scheme: dark) {
 	:root {
 		--text-color: #ffffff;
+		
 	}
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
 		--text-color: #191919;
+		
 	}
 }
 
 @media (color-scheme: light) {
 	:root {
 		--text-color: #191919;
+		
 	}
 }
 
