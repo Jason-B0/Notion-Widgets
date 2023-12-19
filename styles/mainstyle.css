@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'OCR A Extended';
+	src: url('../assets/fonts/OCRAEXT.TTF') format('truetype');
+}
+
+:root {
+	color-scheme: light dark;
+	font-family: 'OCR A Extended';
+	font-size: 20px;
+	transition: all ease 0.2s;
+	--text-color: #ffffff;
+	--bg-color: #191919;
+}
+
+@media (prefers-color-theme: dark) {
+	:root {
+		--text-color: #ffffff;
+		--bg-color: #191919;
+	}
+}
+
+@media (color-scheme: dark) {
+	:root {
+		--text-color: #ffffff;
+		--bg-color: #191919;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--text-color: #000000;
+		--bg-color: #ffffff;
+	}
+}
+
+@media (color-scheme: light) {
+	:root {
+		--text-color: #000000;
+		--bg-color: #ffffff;
+	}
+}
+
+
+body {
+	font-family: 'OCR A Extended';
+	margin: 40px auto 20px;
+	text-align: justify;
+	overflow: hidden;
+	position: relative;
+}
