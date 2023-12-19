@@ -28,14 +28,14 @@
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--text-color: #000000;
+		--text-color: #191919;
 		--bg-color: #ffffff;
 	}
 }
 
 @media (color-scheme: light) {
 	:root {
-		--text-color: #000000;
+		--text-color: #191919;
 		--bg-color: #ffffff;
 	}
 }

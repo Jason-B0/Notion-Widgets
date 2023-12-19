@@ -1,9 +1,9 @@
-[time-data-theme="dark"] {
+[theme="dark"] {
 	--main-bg-color: #191919;
 	--main-text-color: #ffffff;
 }
 
-[time-data-theme="light"] {
+[theme="light"] {
 	--main-bg-color: #ffffff;
 	--main-text-color: #191919;
 }

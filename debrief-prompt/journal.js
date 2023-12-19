@@ -66,13 +66,13 @@ document.getElementById("refresh").onclick = function() {
 
 function light() {
 	console.log("Fired");
-	document.documentElement.setAttribute('time-data-theme', 'light');
+	document.documentElement.setAttribute('theme', 'light');
 }
 
 function dark() {
 	console.log("Fired");
 
-	document.documentElement.setAttribute('time-data-theme', 'dark');
+	document.documentElement.setAttribute('theme', 'dark');
 }
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
