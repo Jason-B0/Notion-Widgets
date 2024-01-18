@@ -14,8 +14,15 @@ function textClock() {
 		hours = hours - 12;
 	}
 	
-	// edit inner HTML directly
-	document.getElementById("time").innerHTML = hours + ":" + minutes.padStart(2, '0') + ":" + seconds.padStart(2, '0') + ":" + milliseconds.padStart(3, '0');
+	// edit inner HTML directly	
+	document.getElementById("time").innerHTML =
+		hours.toString().padStart(2, '0')
+		+ ":"
+		+ minutes.padStart(2, '0')
+		+ ":"
+		+ seconds.padStart(2, '0')
+		+ ":"
+		+ milliseconds.padStart(3, '0');
 	
 	setTimeout(textClock, 50);
 }

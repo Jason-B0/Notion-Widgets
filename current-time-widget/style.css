@@ -1,4 +1,4 @@
-body {
+.body {
 	font-family: 'OCR A Extended';
 	position: absolute;
 	top: 50%;
@@ -6,10 +6,14 @@ body {
 }
 
 #time, #paragraph {
+	font-size: 4vmin;
 	margin: 10px auto;
 	position: relative;
 	display: flex;
 	overflow: hidden;
+	white-space: wrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	cursor: pointer;
 	justify-content: center;
 	align-items: center;
