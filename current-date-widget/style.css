@@ -6,10 +6,15 @@
 }
 
 #time, #paragraph {
+	font-size: 5vmin;
+	font-weight: bolder;
 	margin: 10px auto;
 	position: relative;
 	display: flex;
 	overflow: hidden;
+	white-space: wrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	cursor: pointer;
 	justify-content: center;
 	align-items: center;
