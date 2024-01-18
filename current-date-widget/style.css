@@ -2,11 +2,11 @@
 	font-family: 'OCR A Extended';
 	position: absolute;
 	top: 50%;
-	transform: translate(0, -50%);
+	transform: translate(0, -100%);
 }
 
 #time, #paragraph {
-	font-size: 7vmin;
+	font-size: 5vh;
 	font-weight: bolder;
 	margin: 10px auto;
 	position: relative;
