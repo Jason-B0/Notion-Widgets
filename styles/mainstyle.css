@@ -9,7 +9,7 @@
 	font-size: 20px;
 	transition: all ease 0.2s;
 	--text-color: #ffffff;
-	--bg-color: #2c2c2c;
+	--bg-color: #17212B;
 }
 
 @media (prefers-color-theme: dark) {
