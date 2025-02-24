@@ -5,9 +5,9 @@
 	transform: translate(0, -50%);
 }
 
-#time, #paragraph {
+.time, h2, h3 {
 	font-size: 25px;
-	margin: 10px auto;
+	margin: 10px auto 10px;
 	position: relative;
 	display: flex;
 	overflow: hidden;
@@ -17,4 +17,12 @@
 	cursor: pointer;
 	justify-content: center;
 	align-items: center;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+section {
+	margin: 40px;
 }
