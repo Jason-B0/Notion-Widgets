@@ -1,5 +1,5 @@
 function selectSomePrompt() {
-	var prompts = [
+	let prompts = [
 		"What was a time when I felt like I was in a movie?",
 		"Describe my perfect holiday, the location, the people I want to spend it with.",
 		"Describe peace.",
@@ -51,7 +51,7 @@ function selectSomePrompt() {
 	];
 
 
-	var randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
+	let randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
 
 	document.getElementById("prompt").innerHTML = randomPrompt;
 

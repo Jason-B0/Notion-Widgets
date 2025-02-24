@@ -1,9 +1,9 @@
 function textClock() {
 	/* SETTINGS */
-	var useMilitaryTime = true;
+	let useMilitaryTime = true;
 	
 	/* END SETTINGS */
-	var dt = new Date(),
+	let dt = new Date(),
 		year = dt.getFullYear(),
 		month = dt.getMonth() + 1,
 		date = dt.getDate(),
